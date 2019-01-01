@@ -1,0 +1,147 @@
+.button.expanded.savechangebtn {
+    cursor: pointer;
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-shadow: 0 -1px 0 rgba(32, 45, 25, 0.8);
+    margin: 12% 3% 5% 14%;
+    background-color: #6ba34d;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 10px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 71%;
+    padding: 1rem 0rem 1rem 0rem;
+    /* padding: 0rem 11rem 1rem 6rem; */
+    /* margin: 1rem 5rem 1rem 8rem!important;
+    border-radius: 5px; */
+}
+
+.button.expanded.savechangebtn:hover {
+    background-color: #3f9e0c9d;
+}
+
+.modalheader {
+    padding: 10px 9px 24px 33px;
+    background: #e0e0e0;
+    border: 0;
+    border-radius: 4px 4px 0 0;
+    /* color: #888; */
+    min-height: 16.43px;
+}
+
+.modal-body {
+    padding: 0rem 1rem 1rem 1rem;
+    /* background: #000; */
+    margin: 0% -41% 0% 0%;
+}
+
+.modal-body:after {
+    content: "";
+    height: 1px;
+    width: 33%;
+    position: absolute;
+    left: 20%;
+    top: 0;
+    /* Styles */
+    background: linear-gradient(left, transparent, #444, #b6b6b8, #444, transparent);
+}
+
+.modal-body:before {
+    /* Size and position */
+    content: "";
+    width: 8px;
+    height: 5px;
+    position: absolute;
+    left: 34%;
+    top: -7px;
+    /* Styles */
+    border-radius: 50%;
+    /* box-shadow: 0 0 6px 4px #fff; */
+}
+
+
+/* .no-pointerevents.modal-body:nth-child(1):before {
+    display: none;
+} */
+
+.modal-body:nth-child(1):before {
+    content: "";
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 45px;
+    transform: rotate(75deg);
+    background: linear-gradient(50deg, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0));
+    pointer-events: none;
+}
+
+div#editusermod.reveal {
+    padding: 0% 0% 0% 0%;
+    border: 0px solid #cacaca;
+    border-radius: 4px 4px 4px 4px;
+    width: 402px;
+    max-width: 75rem;
+    background-color: #535553;
+    opacity: 28.5;
+    top: 8% ! important;
+}
+
+div#editusermod.reveal:focus {
+    outline: none;
+}
+
+.subheader {
+    margin-top: 0.2rem! important;
+    margin-bottom: 0.5rem! important;
+    font-weight: 400! important;
+    line-height: 0.4! important;
+    color: #363131! important;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 10px;
+    color: #6e6b6b;
+}
+
+input[type="text"],
+input[type="tel"] {
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    /* background: #27391d;
+    border: 1px solid #27391d;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    background-color: #fefefe;
+    border: 1px solid #00000070;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+    color: #888;
+    /*
+    border-radius: 4px;
+    box-shadow: none; */
+}
+
+input[type="text"]:hover,
+input[type="tel"]:hover {
+    background: linear-gradient(#ece5d0, #e5dfcb);
+}
+
+.group-title {
+    padding: 4% 20% 0% 0%;
+}
+
+button.close-button span {
+    color: #362e2e;
+}
+
+button.close-button span:hover {
+    color: rgb(133, 48, 48);
+}

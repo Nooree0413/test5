@@ -1,0 +1,29 @@
+.post {
+    margin-top: 24px !important;
+    margin-left: 23px !important;
+    border-radius: 5px !important;
+}
+
+.post:hover {
+    border: 2px solid black !important;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(230, 168, 88) !important;
+    float: center;
+    /* resize:horizontal; */
+    width: 94% !important;
+    text-align: center !important;
+    margin-left: 2% !important;
+}
+
+th {
+    background-color: rgba(35, 26, 85, 0.849) !important;
+}
+
+table tbody td,
+table tbody th {
+    padding: .5rem 7.625rem .625rem !important;
+}

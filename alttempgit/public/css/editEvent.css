@@ -1,0 +1,141 @@
+div#editevent.reveal {
+    margin: -1rem 1rem 1rem 32%;
+    padding: 0% 0% 0% 0%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #202a20eb;
+    opacity: 28.5;
+    border-color: #786e6e59;
+}
+
+div#editevent.reveal input[type="text"],
+div#editevent.reveal textarea,
+div#editevent.reveal input[type="date"],
+div#editevent.reveal select {
+    border-radius: 5px 5px 5px 5px;
+    border-color: #283228;
+}
+
+div#editevent.reveal input[type="text"]:hover,
+div#editevent.reveal textarea:hover,
+div#editevent.reveal input[type="date"]:hover,
+div#editevent.reveal select:hover {
+    background-color: #ecf0b5f6;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+div#editevent.reveal input[type="date"]:focus {
+    transition: 0.2s;
+    border-color: rgb(165, 165, 172);
+    background: #edf0c5f6;
+    opacity: 1;
+}
+
+div#editevent.reveal input[type="text"]:focus,
+div#editevent.reveal textarea:focus,
+div#editevent.reveal select:focus {
+    border-color: rgb(165, 165, 172);
+    /* -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s; */
+    transition: 0.5s;
+    /* position: absolute;
+    left: 100px;
+    top: 150px; */
+    height: 9%;
+    background: #edf0c5f6;
+    opacity: 1;
+}
+
+div#editevent.reveal form.form-body {
+    padding: 0% 0% 0% 3%;
+    margin: 1% 1% 1% 1%;
+    width: 94%;
+}
+
+input#btn-save.button {
+    margin: 1rem 5rem 1rem 8rem!important;
+    padding: 1rem 8rem 1rem 8rem;
+    border-radius: 5px;
+}
+
+div#editevent.reveal h4.modal-title {
+    text-align: center !important;
+    background-color: #e0e0e0;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+/*form.form-body [type=color],
+[type=date],
+[type=datetime-local],
+[type=datetime],
+[type=email],
+[type=month],
+[type=number],
+[type=password],
+[type=search],
+[type=tel],
+[type=text],
+[type=time],
+[type=url],
+[type=week],
+textarea,
+
+ select {
+     height: 50px!important; 
+     margin: 0!important;
+    padding: 0 20px !important;
+    vertical-align: middle !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height: 50px !important;
+    border: 1px solid #00000070 !important;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+    border-radius: 3px !important;
+    font-family: 'Ubuntu', 'Lato', sans-serif !important;
+    color: #2b2828 !important;
+}  */
+
+form.form-body [type=color]:hover,
+[type=date]:hover,
+[type=datetime-local]:hover,
+[type=datetime]:hover,
+[type=email]:hover,
+[type=month]:hover,
+[type=number]:hover,
+[type=password]:hover,
+[type=search]:hover,
+[type=tel]:hover,
+[type=text]:hover,
+[type=time]:hover,
+[type=url]:hover,
+[type=week]:hover,
+textarea:hover,
+select:hover {
+    background-color: #dddddd8f;
+}
+
+div#editevent.reveal label {
+    display: block;
+    margin: 3px;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #c3b1b1;
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+}
+
+div#editevent.reveal form.form-body button.close-button span:hover {
+    color: rgb(133, 48, 48);
+}
+
+div.row label {
+    display: block;
+    margin: 3px;
+    font-size: 1.1rem;
+    font-weight: 200;
+    line-height: 2.8;
+    color: #0c3d5d;
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+}

@@ -1,0 +1,224 @@
+.card {
+    margin-left: 6%;
+    width: 88%;
+    overflow: visible;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-UserDetails {
+    overflow: visible;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardwrapper {
+    padding-left: 5%;
+    padding-right: 6%;
+    padding-top: 0%;
+}
+
+#backbtn {
+    margin: 3.5% 3.5% 3.5% 3.5%;
+}
+
+#editbtn {
+    margin: -5% -1% -5% 70%;
+}
+
+.imgsize {
+    height: 313px;
+    /* height: 72%; */
+    /* width: 62.2vw; */
+    width: inherit;
+}
+
+.card-section {
+    width: 99.8% !important;
+    /* height: 200px !important;  */
+    /* padding-right: 2.5%; */
+}
+
+img {
+    /* width: 485px; */
+    /* height: 80% !important;
+         */
+    padding: 0%;
+    height: 4%;
+    /* margin-left: 34px; */
+    margin-left: 2px;
+    max-width: 186%;
+}
+
+.imgshowdiv {
+    width: 76%;
+    height: 61%;
+    padding-left: 2%;
+    border-radius: 50%;
+    border: 3px solid#6ba34d;
+}
+
+#tblevent img {
+    width: 23%;
+    height: 25%;
+}
+
+#tblevent {
+    border-collapse: unset! important;
+    margin: 1% 0% 1% 0%;
+    width: 100%!important;
+}
+
+#tblitem {
+    border-collapse: unset! important;
+    width: 98% !important;
+    padding: 0.3% 0% 1% 0%;
+}
+
+.img-avatar {
+    /* width: 485px; */
+    height: 20% !important;
+    padding: 0%;
+    margin-left: 42%;
+    max-width: 186%;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center !important;
+    background-color: #6ba34d;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+html {
+    /* box-sizing: border-box; */
+    font-size: 100%;
+}
+
+
+/* @media only screen and (max-width:1330px) {
+    .imgsize {
+        padding-right: 12%;
+    }
+} */
+
+
+/* .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+} */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.has-tip {
+    border-bottom: none;
+}
+
+.eventName {
+    padding-left: 43% !important;
+    text-transform: capitalize !important;
+}
+
+.eventHeading {
+    background-color: white !important;
+    color: black !important;
+    text-align: left !important;
+}
+
+.eventData {
+    text-align: left !important;
+}
+
+.imageFit {
+    width: auto;
+}
+
+.iconColor {
+    font-weight: bolder !important;
+}
+
+.firstshowdiv {
+    /* border: solid 2px green; */
+    width: 27%;
+    padding-top: 1%;
+    height: 34%;
+    float: left;
+}
+
+.secondshowdiv {
+    /* border: solid 2px blue; */
+    width: 28%;
+    height: 34%;
+    float: left;
+}
+
+.showrwap {
+    width: 56% !important;
+    margin-left: 23% !important;
+}
+
+.listfield {
+    text-align: right;
+    font-size: 20px;
+}
+
+.headingshow {
+    text-transform: capitalize;
+    /* padding-left: 40%; */
+    text-align:middle !important;
+}
+
+.thirdshowdiv {
+    width: 28%;
+    height: 34%;
+    float: left;
+    /* border: solid 2px blue; */
+}
+
+.datafield {
+    text-align: left;
+    font-size: 20px;
+}
+
+.backBtnPosition {
+    margin-left: 10.4% !important;
+}
+
+.editBtnPosition {
+    margin-left: 67.5% !important;
+}
